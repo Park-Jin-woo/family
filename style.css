@@ -1,0 +1,46 @@
+body h1 {
+
+    padding-bottom:30px;
+    text-align:center;
+    margin:0;
+    text-decoration:none;
+    color:black;
+}
+body h2{
+  border-left: gray 1.5px solid;
+  border-right: gray  1.5px solid;
+  text-align:center;
+  margin-bottom:3px;
+  margin-top:0;
+  text-decoration:none;
+  color:black; style="text-color:black"
+}
+#top{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  border-bottom:gray 5px solid;
+  text-align:center;
+  margin-bottom:10px;
+  text-decoration:none;
+}
+body h4{
+  text-align:right;
+  margin:0;
+  color:black;
+}
+img {
+  border-bottom: 10px gray double;
+  padding-bottom:10px;
+  padding-bottom-color:black;
+}
+#service{
+  text-align:center;
+  border:0;
+  font-size: 22pt;
+  color: #FFC107;
+}
+
+#line{
+  border-top:10px #009688 solid;
+  background-color: #009688;
+}
