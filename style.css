@@ -60,8 +60,12 @@ img {
 }
 #media1{
   display: grid;
-  grid-template-rows: 40px 1fr;
+  grid-template-rows: 40px 1fr;}
+#nobadak{
+  height: 100%;
+  weight:100%;
 }
+
 
 #id{
   margin-left: 0px;
