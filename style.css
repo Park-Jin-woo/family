@@ -14,7 +14,7 @@ body h2{
   margin-bottom:3px;
   margin-top:0;
   text-decoration:none;
-  color:black; style="text-color:black"
+  color:black; style="color:black"
 }
 #jemititle{
   border-bottom: gray 1px solid;
@@ -29,6 +29,7 @@ body h2{
   margin-bottom:30px;
   padding-bottom: 20px;
   text-decoration:none;
+  color: black;
 }
 #login{
   text-align:right;
@@ -47,7 +48,12 @@ body h2{
   color: #FFC107;
 
 }
-
+.border{
+  border-bottom: 10px gray double;
+}
+.jemok{
+  text-align: center;
+}
 #line{
 
   border-top:10px #009688 solid;
@@ -94,6 +100,11 @@ body h2{
 {
   display: grid;
   grid-template-columns:1fr ;
+}
+#today-date
+{
+  display: grid;
+  grid-template-columns: 1fr;
 }
 ( background-image: url("title.jpg");
   background-position: center center;

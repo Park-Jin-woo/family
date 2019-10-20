@@ -2,7 +2,7 @@
 <html id="nobadak">
   <head>
     <meta charset="utf-8">
-    <title>new-project</title>
+    <title>박준호의 홈</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body id="body"style="
@@ -11,6 +11,7 @@
     margin-left: 0px;
     margin-bottom: 0px;">
       <div id="login"><h4>로그인하기</h4></div>
+
       <h1><a href="project.html" style="text-decoration:none"style="text-color:black">우리가족의 웹사이트</a></h1>
     <div id="top">
         <h2><a href="service1.html" style="text-decoration:none"style="text-color:black" >김선영</a></h2>
@@ -19,6 +20,24 @@
         <h2><a href="service4.html" style="text-decoration:none"style="text-color:black" >박지원</a></h2>
         <h2><a href="service5.html" style="text-decoration:none"style="text-color:black" ><strong>재미</strong>(beta)</a></h2>
     </div>
+    <h3> 주간 Day 모드켜기/야간 Night 모드켜기</h3>
+
+    <h3>
+      <input type="button" value="야간모드 Night" style="width:435px;height:25px;text-align:center;font-size:15px;background-color:white;color:black" onclick="
+      var target = document.querySelector('body')
+       if (this.value === '야간모드 Night'){
+       target.style.color = 'white'
+       target.style.backgroundColor = 'black'
+       this.value = '주간모드 Day'
+       this.style = 'width:435px;height:25px;text-align:center;font-size:15px;background-color: black ; color: white'
+     }
+       else {
+       target.style.backgroundColor = 'white'
+       target.style.color = 'black'
+       this.value = '야간모드 Night'
+       this.style = 'width:435px;height:25px;text-align:center;font-size:15px;background-color: white ; color: black'
+     }">
+   </h3>
     <!--<h3>안녕하세요,<br>
       이곳은 새로운 프로젝트를 시작하는 웹페이지 입니다.</h3>
     <img src="projecting.jpg"width="100%" >-->
@@ -26,12 +45,49 @@
       <h3>골프동영상</h3>
       골프동영상 youtube으로 보기<br>
       아래의 링크를 클릭해주세요:)<br>
-      <a href="https://www.youtube.com/results?search_query=%EA%B3%A8%ED%94%84" style="text-decoration:none;font-size:24pt" target="_blank">골프동영상보기-></a>
+
+      <a href="https://www.youtube.com/results?search_query=%EA%B3%A8%ED%94%84" style="text-decoration:none;font-size:24pt" target="_blank"><input type="button" name="골프동영상보기 (youtube)" value="골프동영상보기"></a>
       <!--<div id="media">
         <div id="media1"><h4>골프동영상</h4><br><iframe width="500" height="315" src="https://www.youtube.com/results?search_query=%EA%B3%A8%ED%94%84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div><div id="media1"><h4>시즌 2 모두보기</h4><br><iframe width="500" height="315" src="https://www.youtube.com/embed/_zXTiZQi0_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div><div id="media1"><h4>시즌 3 모두보기</h4><br><iframe width="500" height="315" src="https://www.youtube.com/embed/94LNZwX4gQI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
--->      <br><br><br><br><br><br><br><br><br><br>
+-->
+<!-- 각종 설치 코드들임. 아래에있는 것들-->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5c5a73437cf662208c943db0/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+ <!-- 라이브리 시티 설치 코드 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC80MjUyNy8xOTA3NA==">
+	<script type="text/javascript">
+  window.livereOptions ={
+    refer:'jinwoob1.github.io/familywebsite/service2/2019-04'
+  };
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+</div>
+<!-- 시티 설치 코드 끝 -->
+<br><br><br><br><br><br><br><br><br><br>
       <br><br><br><br><br><br>
         </div>
       </div>
